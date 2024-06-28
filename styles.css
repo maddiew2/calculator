@@ -1,0 +1,106 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  #phone {
+    display: flex;
+    height: 600px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0px 0px 1px 10px rgb(130, 79, 130);
+    background-color: black;
+    border-radius: 30px;
+    
+  }
+  
+  #display {
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+    height: 230px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 60px;
+    padding-right: 16px;
+    background-color: black;
+    color: white;
+
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: repeat(5, 1fr);
+    cursor: pointer;
+    height: 380px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: rgb(57, 54, 54);
+    color: white;
+    border: none;
+    margin: 0;
+    border-radius: 50px;
+    font-size: 30px;
+  }
+
+  
+  #touch {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 5px;
+  }
+  
+  .rightSide{
+    grid-column: 2;
+    grid-row: span 4;
+    display: grid;
+  }
+  
+  .rightSide button {
+    background-color: orange;
+  }
+  
+  .btnEqual {
+    grid-row: 5;
+    grid-column: 2;
+    background-color: orange;
+    border-radius: 50px
+  }
+  
+  .middle {
+    grid-row: 2 / 6;
+  }
+  
+  .top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .top button {
+    background-color: gray
+  }
+  
+  .middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  #zero {
+    grid-column: span 2;
+    border-radius: 40px;
+  }
+  
+
+
+
+
+/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold; */
