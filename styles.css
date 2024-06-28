@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
     height: 100vh;
@@ -6,20 +6,19 @@ body{
     justify-content: center;
     margin: 0;
     flex-direction: column;
-  }
+}
   
-  #phone {
+#phone {
     display: flex;
     height: 600px;
     width: 300px;
     padding: 10px;
     box-shadow: 0px 0px 1px 10px rgb(130, 79, 130);
     background-color: black;
-    border-radius: 30px;
-    
-  }
+    border-radius: 30px; 
+}
   
-  #display {
+#display {
     display: flex;
     border-radius: 30px 30px 0px 0px;
     height: 230px;
@@ -30,17 +29,17 @@ body{
     background-color: black;
     color: white;
 
-  }
+}
   
-  .buttons {
+.buttons {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: repeat(5, 1fr);
     cursor: pointer;
     height: 380px;
-  }
+}
   
-  button {
+button {
     cursor: pointer;
     background-color: rgb(57, 54, 54);
     color: white;
@@ -48,59 +47,53 @@ body{
     margin: 0;
     border-radius: 50px;
     font-size: 30px;
-  }
+}
 
-  
-  #touch {
+#touch {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     border-radius: 5px;
-  }
+}
   
-  .rightSide{
+.right{
     grid-column: 2;
     grid-row: span 4;
     display: grid;
-  }
+}
   
-  .rightSide button {
+.right button {
     background-color: orange;
-  }
+}
   
-  .btnEqual {
+.equals {
     grid-row: 5;
     grid-column: 2;
     background-color: orange;
     border-radius: 50px
-  }
+}
   
-  .middle {
+.middle {
     grid-row: 2 / 6;
-  }
+}
   
-  .top {
+.top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
+}
   
-  .top button {
+.top button {
     background-color: gray
-  }
+}
   
-  .middle {
+.middle {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
+}
   
-  #zero {
+#zero {
     grid-column: span 2;
     border-radius: 40px;
-  }
+}
   
 
-
-
-
-/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold; */
